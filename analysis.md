@@ -19,8 +19,6 @@ data.columns
 ```
 
 
-
-
     Index(['year', 'datanum', 'serial', 'hhwt', 'region', 'statefip', 'metro',
            'gq', 'pernum', 'perwt', 'sex', 'age', 'birthqtr', 'marst', 'marrno',
            'agemarr', 'race', 'raced', 'hispan', 'hispand', 'bpl', 'bpld',
@@ -29,8 +27,6 @@ data.columns
            'yrlastwk', 'workedyr', 'inctot', 'incwage', 'sei', 'migrate5',
            'migrate5d', 'work5yr', 'disabwrk', 'disabtrn', 'vetstat', 'vetstatd'],
           dtype='object')
-
-
 
 
 ```python
@@ -89,8 +85,6 @@ print("First Stage F-Statistic:", f_stat)
     OLS Results:
     
 
-    C:\Users\SHAYAN\anaconda3\Lib\site-packages\numpy\core\fromnumeric.py:88: RuntimeWarning: overflow encountered in reduce
-      return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
     
 
                                 WLS Regression Results                            
@@ -181,8 +175,6 @@ print("First Stage F-Statistic:", f_stat)
     2SLS Second Stage Results (Manual):
     
 
-    C:\Users\SHAYAN\anaconda3\Lib\site-packages\numpy\core\fromnumeric.py:88: RuntimeWarning: overflow encountered in reduce
-      return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
     
 
                                 WLS Regression Results                            
@@ -353,8 +345,6 @@ print("First Stage F-Statistic:", f_stat)
     Hausman Test for Endogeneity:
     
 
-    C:\Users\SHAYAN\anaconda3\Lib\site-packages\numpy\core\fromnumeric.py:88: RuntimeWarning: overflow encountered in reduce
-      return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
     
 
     =======================================================================================
@@ -560,19 +550,14 @@ except Exception as e:
 
 
     
-![png](output_4_1.png)
     
 
 
-
     
-![png](output_4_2.png)
     
 
 
-
     
-![png](output_4_3.png)
     
 
 
@@ -587,21 +572,15 @@ except Exception as e:
 
 
     
-![png](output_4_5.png)
     
 
 
-
     
-![png](output_4_6.png)
     
 
 
-
     
-![png](output_4_7.png)
     
-
 
 
 ```python
