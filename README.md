@@ -34,6 +34,8 @@ The 2SLS estimate is about three times larger than OLS and remains strongly sign
 analysis.md   # full analysis: code, regression output and interpretation
 ```
 
+Figures and tables are generated when the code is run; the figure files themselves are not stored in the repository.
+
 ## Reproducing
 
 Download a 1980 Census extract from [IPUMS USA](https://usa.ipums.org/) with `educ`, `birthqtr`, `age`, `perwt`, `incwage`, `race`, `sex`, `statefip`, `disabwrk` and `disabtrn`, and save it as `usa_1980.dta`.
